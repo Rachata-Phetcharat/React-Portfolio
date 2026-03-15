@@ -453,6 +453,16 @@ const PROJECTS = [
     github: "https://github.com/Rachata-Phetcharat/mini_project_mobile.git",
     theme: "cyan",
   },
+  {
+    id: 3,
+    title: "to-do-list",
+    subtitle: "A To-Do List Application",
+    description:
+      "A to-do list application that allows users to create, manage, and organize their tasks effectively, utilizing Firebase for real-time data synchronization.",
+    tags: ["React", "tailwindcss", "express.js"],
+    github: "https://github.com/Rachata-Phetcharat/To_DoList.git",
+    theme: "orange",
+  },
 ];
 
 function ProjectCard({ project, index }) {
